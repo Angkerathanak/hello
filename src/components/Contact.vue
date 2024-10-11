@@ -25,7 +25,7 @@
               </div>
               <div class="btn_box">
                 <button>
-                  SEND
+                  SEND Hello
                 </button>
               </div>
             </form>
