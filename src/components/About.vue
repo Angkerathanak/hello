@@ -20,7 +20,7 @@
                 {{ $t('Dsm') }}
             </p>
             <a href="">
-              Read More
+              Read Mores
             </a>
           </div>
         </div>
