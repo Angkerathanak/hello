@@ -4,16 +4,16 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="/images/css2.png" alt="">
+              <img :src="social_image" alt="">
             </div>
             <div class="detail-box">
               <h5>
                 {{ title }}
               </h5>
               <p>
-                {{ shortDescription }}
+                {{ description }}
               </p>
-              <a href="">
+              <a :href="canonical_url">
                 Read More
               </a>
             </div>
@@ -25,6 +25,6 @@
 </template>
 <script>
 export default {
-  props: ["img", "title", "shortDescription"],
+  props: ["social_image", "title", "description","canonical_url"],
 };
 </script>

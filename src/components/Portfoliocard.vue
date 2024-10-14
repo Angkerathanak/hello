@@ -17,7 +17,7 @@
         :key="index"
         :img="item.img"
         :title="item.title"
-        :description="item.description" >
+        :description="item.description">
     </Portfolio>
     </div>
     </div>

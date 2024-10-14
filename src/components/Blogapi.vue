@@ -10,9 +10,10 @@
       <Blog
         v-for="(item, index) in blog"
         :key="index"
-        :img="item.img"
+        :social_image="item.social_image"
         :title="item.title"
-        :shortDescription="item.shortDescription" >
+        :description="item.description"
+        :canonical_url="item.canonical_url">
     </Blog>
     </div>
     </div>
