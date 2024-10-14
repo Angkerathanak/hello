@@ -40,7 +40,7 @@
       // const response = await axios.get(url);
       console.log("A");
       // const response = await axios.get("/v1/courses");
-      const response = await axios.get("https://dev.to/api/articles");
+      const response = await axios.get('https://dev.to/api/articles');
       console.log("A1");
       const course = response.data;
       this.blog = course;
